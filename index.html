@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Title -->
+      <title> Racing App </title>
+    <!-- Favicon -->
+      <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+
+    <!-- Metas -->
+      <meta name='keywords' content='your, tags'>
+      <meta name='description' content='Racing Application'>
+      <meta name='subject' content=''>
+      <meta name='copyright' content='Home AG'>
+      <meta name='language' content='EN'>
+      <meta name='revised' content='Saturday, November 12th, 2016, 19:28'>
+      <meta name='Classification' content='Business'>
+      <meta name='author' content='Selam Getachew Woldetsadick, selamgetachew@gmail.com'>
+      <meta name='reply-to' content='selamgetachew@gmail.com'>
+      <meta name='owner' content='Home AG'>
+      <meta name='coverage' content='Local'>
+      <meta name='distribution' content='Local'>
+      <meta name='rating' content='General'>
+      <meta name='subtitle' content='Racing Application - Angular 2 Test'>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Loading CSS Styles-->
+      <link rel="stylesheet" href="/css/styles.css">
+      
+    <!--Loading JS Scripts
+      <script src="/res/js/jquery.min.js"></script>
+      <script src="/res/js/script.js"></script>-->
+
+    <!-- Polyfill(s) for older browsers -->
+      <script src="node_modules/core-js/client/shim.min.js"></script>
+      <script src="node_modules/zone.js/dist/zone.js"></script>
+      <script src="node_modules/reflect-metadata/Reflect.js"></script>
+      <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+      <script src="systemjs.config.js"></script>
+      <script>
+        System.import('app').catch(function(err){ console.error(err); });
+      </script>
+
+  </head>
+
+  <body>
+    <racing-app> Loading... </racing-app> 
+  </body>
+
+</html>
